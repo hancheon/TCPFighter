@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Network">
+      <UniqueIdentifier>{989f04e8-f1f5-44ad-a71b-14d2ea838a07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\RingBuffer">
+      <UniqueIdentifier>{1bdf8670-3726-46ee-972c-3b0f67e58c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PacketDefine">
+      <UniqueIdentifier>{eb27dc4b-236e-48dd-b972-95a88dbac84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Stream">
+      <UniqueIdentifier>{cc7058cf-7e5a-41c9-b93b-6e6b26743cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Util">
+      <UniqueIdentifier>{fb2ffc78-15e5-4442-b7d8-e1ac37087c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Util\Assert">
+      <UniqueIdentifier>{9cdaaa09-515c-40db-9369-6e6778917902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Network\Network">
+      <UniqueIdentifier>{a9f09f88-5180-4a35-8a61-5c9aadfc3e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Network\Packet">
+      <UniqueIdentifier>{113355ae-54b3-45e5-bfed-7997f47276d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Network\Session">
+      <UniqueIdentifier>{e7da0f26-0f7b-4b9d-bfef-39efc74be6b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PacketProcess">
+      <UniqueIdentifier>{15299a60-3368-4b4d-8225-37ed83c0cbf7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RingBuffer.cpp">
+      <Filter>소스 파일\RingBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Packet\Stream.cpp">
+      <Filter>소스 파일\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketProcess.cpp">
+      <Filter>소스 파일\PacketProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Assert.cpp">
+      <Filter>소스 파일\Util\Assert</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Network.cpp">
+      <Filter>소스 파일\Network\Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RingBuffer.h">
+      <Filter>소스 파일\RingBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\Stream.h">
+      <Filter>소스 파일\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>소스 파일\PacketDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketProcess.h">
+      <Filter>소스 파일\PacketProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Session.h">
+      <Filter>소스 파일\Network\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPFighter_SelectServer.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Assert.h">
+      <Filter>소스 파일\Util\Assert</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Network.h">
+      <Filter>소스 파일\Network\Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
