@@ -2,4 +2,5 @@
 .vs/
 .obj/
 .bin/
+x64/
 .pch
